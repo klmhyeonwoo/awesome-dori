@@ -91,6 +91,7 @@
   font-size: 1.65rem;
   font-weight: 600;
   color: var(--grey800);
+  height: calc(1.65rem * 1.4 * 2);
 }
 
 .card__position,
@@ -124,7 +125,7 @@
 .card__title__container,
 .card__date__container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   column-gap: 0.5rem;
 }
 
